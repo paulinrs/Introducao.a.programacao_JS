@@ -191,3 +191,22 @@ document.getElementById('user_name').innerHTML = userName
 
 // saque(701)
 // console.log(saldo)
+
+//Arrays//
+
+// var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vader']
+//(cria uma lista onde se inicia com O e depois continua 1, 2, 3...)
+// personagens.push('C3pO') //<-add um item a lista
+// personagens.push('R2D2')
+
+// personagens.pop()  //<-remove o ultimo item da lista
+
+// personagens = personagens.filter(function(p){
+//     return p !== 'Darth Vader'
+// }) //<-remove um item especifico da lista
+
+// personagens = personagens.filter(function(p){
+//     return p === 'Mestre Yoda'
+// }) //<-seleciona um item especifico da lista
+
+// console.log(personagens)
