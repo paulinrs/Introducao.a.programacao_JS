@@ -210,3 +210,24 @@ document.getElementById('user_name').innerHTML = userName
 // }) //<-seleciona um item especifico da lista
 
 // console.log(personagens)
+
+//Controles de repetição (Loops)//
+
+// var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vader', 'R2D2']
+
+//(EXEMPLO 1)
+// personagens.forEach(function(p){
+//         console.log(p)
+// })
+
+//(EXEMPLO 2. PASSANDO SOMENTE O (I) IMPRIME NUMERICOS, PASSANDO (personagens[i]) IMPRIME NOMES)
+
+// for (var i in personagens){
+//     console.log(personagens[i])
+// }
+
+//(EXEMPLO 3. CÓDIGO VAI SER EXECUTADO ATÉ A CONDIÇÃO RETORNAR FALSE)
+
+// for (var i = 0; i <= 10; i++){
+//     console.log(i)
+// }
