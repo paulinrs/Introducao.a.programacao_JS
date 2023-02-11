@@ -234,18 +234,35 @@ document.getElementById('user_name').innerHTML = userName
 
 //Objetos (Super Variáveis)//
 
-var yoda = {
-    nome: 'Mestre Yoda',
-    idade: 100,
-    jedi: true,
-    mostrarIdade: function() {
-        console.log(`A idade do ${this.nome} é ${this.idade} anos.`)
-    },
+// var yoda = {
+//     nome: 'Mestre Yoda',
+//     idade: 100,
+//     jedi: true,
+//     mostrarIdade: function() {
+//         console.log(`A idade do ${this.nome} é ${this.idade} anos.`)
+//     },
 
-    mostrarBolean: function(){
-        console.log(`O ${this.nome} é um jedi? R:${this.jedi}.`)
-    }
-}
+//     mostrarBolean: function(){
+//         console.log(`O ${this.nome} é um jedi? R:${this.jedi}.`)
+//     }
+// }
 
-yoda.mostrarIdade()
-yoda.mostrarBolean()
+// yoda.mostrarIdade()
+// yoda.mostrarBolean()
+
+//Constantes//
+
+var name = 'Darth Vader'
+console.log(name)
+
+name = "Mestre Yoda"
+console.log(name)
+
+//var pode mudar o nome -> const não pode mudar o nome***
+
+
+const nome = 'Darth Vader'
+console.log(nome)
+
+nome = "Mestre Yoda"
+console.log(nome)
