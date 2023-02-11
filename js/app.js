@@ -231,3 +231,21 @@ document.getElementById('user_name').innerHTML = userName
 // for (var i = 0; i <= 10; i++){
 //     console.log(i)
 // }
+
+//Objetos (Super Variáveis)//
+
+var yoda = {
+    nome: 'Mestre Yoda',
+    idade: 100,
+    jedi: true,
+    mostrarIdade: function() {
+        console.log(`A idade do ${this.nome} é ${this.idade} anos.`)
+    },
+
+    mostrarBolean: function(){
+        console.log(`O ${this.nome} é um jedi? R:${this.jedi}.`)
+    }
+}
+
+yoda.mostrarIdade()
+yoda.mostrarBolean()
