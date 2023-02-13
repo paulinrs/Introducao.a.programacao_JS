@@ -23,7 +23,8 @@
             <div class="item" v-for="item of characters">
                 <img :src="item.avatar" :alt="item.nome"/> 
                 <p>{{item.nome}}</p>
-                <button @click="like(item.nome)">Like</button>
+                <button @click="like(item.nome)">Curtir</button>
+                <button @click="remove(item.id)">Excluir</button>
             </div>
         </div>
 

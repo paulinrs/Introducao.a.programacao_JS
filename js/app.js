@@ -51,7 +51,15 @@ const App = new Vue({
     },
     methods:{
         like(userName){
-            alert(`O personagem ${userName} recebeu um like!`)
+            alert(`O personagem ${userName} recebeu uma curtida!`)
+        },
+        remove(id){
+            const list = this.characters
+
+            const result = list.filter(item => {
+                return item.id !== id
+            })
+            this.characters = result
         },
         search(){
 
