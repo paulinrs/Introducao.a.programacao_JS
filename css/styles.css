@@ -54,6 +54,16 @@ body {
    border: 5px rgb(255, 68, 68) solid;
 }
 
+.characters .item .like{
+   color: #8686de;
+   cursor: pointer;
+}
+
+.characters .item .delete{
+   color: #f65;
+   cursor: pointer;
+}
+
 input {
    padding: 0.75em 1.25em;
    border-radius: 8px;

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEV Paulo</title>
     <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
 </head>
 <body>
 
@@ -23,8 +25,13 @@
             <div class="item" v-for="item of characters">
                 <img :src="item.avatar" :alt="item.nome"/> 
                 <p>{{item.nome}}</p>
-                <button @click="like(item.nome)">Curtir</button>
-                <button @click="remove(item.id)">Excluir</button>
+                <span @click="like(item.nome)" class="like material-symbols-outlined">
+                    thumb_up_off
+                </span>
+
+                <span @click="remove(item.id)" class="delete material-symbols-outlined">
+                    delete
+                </span>
             </div>
         </div>
 
