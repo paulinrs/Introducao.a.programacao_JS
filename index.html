@@ -14,6 +14,11 @@
 
         <small>Olá, {{userName}}</small>
 
+        <form>
+            <input placeholder="Buscar personagem..." v-model="searchName"/>
+            <button type="button" @click="search()">Buscar</button>
+        </form>
+
         <div class="characters">
             <div class="item" v-for="item of characters">
                 <img :src="item.avatar" :alt="item.nome"/> 
