@@ -15,11 +15,6 @@ body {
    margin: auto;
 }
 
-h1{
-   font-family: 'Julee', cursive;
-   color: red;
-}
-
 .top {
    padding: 25px;
    display: grid;
@@ -31,7 +26,8 @@ h1{
 .top h1 {
    font-size: 2em;
    margin: 0;
-   color: #fff;
+   color:red;
+   font-family: 'Julee', cursive;
 }
 
 .top form {
