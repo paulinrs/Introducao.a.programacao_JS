@@ -1,4 +1,4 @@
-## Introdução a programação em JavaScript
+# Introdução a programação em JavaScript, HTML e CSS
 
  <h1 align="center">
 
